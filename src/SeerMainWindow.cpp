@@ -9,13 +9,13 @@
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QStyleFactory>
 #include <QtWidgets/QToolButton>
-#include <QtGui/QKeySequence>
-#include <QtGui/QPalette>
-#include <QtCore/QCoreApplication>
-#include <QtCore/QTimer>
+#include <QKeySequence>
+#include <QPalette>
+#include <QCoreApplication>
+#include <QTimer>
 #include <QRegularExpression>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QSettings>
+#include <QDebug>
 
 SeerMainWindow::SeerMainWindow(QWidget* parent) : QMainWindow(parent) {
 
@@ -55,7 +55,7 @@ SeerMainWindow::SeerMainWindow(QWidget* parent) : QMainWindow(parent) {
 
     // Set up Styles menu.
     _styleMenuActionGroup = new QActionGroup(this);
-    _styleMenuActionGroup->setExclusionPolicy(QActionGroup::ExclusionPolicy::Exclusive);
+    _styleMenuActionGroup->setExclusionPolicy(QActionGroup::Exclusive);
     _styleMenuActionGroup->setEnabled(true);
     _styleMenuActionGroup->setVisible(true);
 

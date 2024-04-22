@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QLabel>
-#include <QtCore/QString>
+#include <QString>
 
 class SeerRunStatusIndicator : public QLabel {
 

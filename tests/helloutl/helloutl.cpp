@@ -1,8 +1,8 @@
 #include "../../src/SeerUtl.h"
-#include <QtCore/QString>
-#include <QtCore/QStringList>
-#include <QtCore/QDebug>
-#include <QtCore/QRegExp>
+#include <QString>
+#include <QStringList>
+#include <QDebug>
+#include <QRegExp>
 #include <iostream>
 
 int main (int argc, char** argv) {

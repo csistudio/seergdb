@@ -1,8 +1,8 @@
 #pragma once
 
 #include <QtWidgets/QDialog>
-#include <QtCore/QString>
-#include <QtCore/QVector>
+#include <QString>
+#include <QVector>
 
 #include "ui_SeerRegisterProfileDialog.h"
 

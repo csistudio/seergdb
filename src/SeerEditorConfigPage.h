@@ -1,7 +1,7 @@
 #pragma once
 
 #include "SeerHighlighterSettings.h"
-#include <QtGui/QFont>
+#include <QFont>
 #include <QtWidgets/QWidget>
 
 #include "ui_SeerEditorConfigPage.h"

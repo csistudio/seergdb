@@ -3,28 +3,28 @@
 #include "SeerBreakpointCreateDialog.h"
 #include "SeerPrintpointCreateDialog.h"
 #include "SeerUtl.h"
-#include <QtGui/QColor>
-#include <QtGui/QPainter>
-#include <QtGui/QTextBlock>
-#include <QtGui/QFont>
-#include <QtGui/QIcon>
-#include <QtGui/QRadialGradient>
-#include <QtGui/QHelpEvent>
-#include <QtGui/QPainterPath>
-#include <QtGui/QGuiApplication>
+#include <QColor>
+#include <QPainter>
+#include <QTextBlock>
+#include <QFont>
+#include <QIcon>
+#include <QRadialGradient>
+#include <QHelpEvent>
+#include <QPainterPath>
+#include <QGuiApplication>
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QMenu>
 #include <QAction>
 #include <QtWidgets/QToolTip>
 #include <QtWidgets/QMessageBox>
-#include <QtGui/QTextCursor>
-#include <QtGui/QPalette>
-#include <QtCore/QList>
-#include <QtCore/QString>
-#include <QtCore/QTextStream>
-#include <QtCore/QFile>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
+#include <QTextCursor>
+#include <QPalette>
+#include <QList>
+#include <QString>
+#include <QTextStream>
+#include <QFile>
+#include <QFileInfo>
+#include <QDebug>
 
 //
 // Assembly Area

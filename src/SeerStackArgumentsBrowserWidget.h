@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
+#include <QString>
 #include "ui_SeerStackArgumentsBrowserWidget.h"
 
 class SeerStackArgumentsBrowserWidget : public QWidget, protected Ui::SeerStackArgumentsBrowserWidgetForm {

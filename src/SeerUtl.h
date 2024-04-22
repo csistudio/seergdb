@@ -1,9 +1,9 @@
 #pragma once
 #include "QStringPair.h"
-#include <QtCore/QString>
-#include <QtCore/QStringList>
-#include <QtCore/QMap>
-#include <QtCore/Qt>
+#include <QString>
+#include <QStringList>
+#include <QMap>
+#include <Qt>
 
 namespace Seer {
 

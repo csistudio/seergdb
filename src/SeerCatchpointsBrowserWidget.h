@@ -1,8 +1,8 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
+#include <QString>
+#include <QStringList>
 #include "ui_SeerCatchpointsBrowserWidget.h"
 
 class SeerCatchpointsBrowserWidget : public QWidget, protected Ui::SeerCatchpointsBrowserWidgetForm {

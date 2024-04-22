@@ -1,7 +1,7 @@
 #include <iostream>
-#include <QtCore/QString>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QDebug>
+#include <QString>
+#include <QRegularExpression>
+#include <QDebug>
 
 int main (int argc, char** argv) {
 

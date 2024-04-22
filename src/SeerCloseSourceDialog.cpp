@@ -1,8 +1,8 @@
 #include "SeerCloseSourceDialog.h"
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QWidget>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QSettings>
+#include <QDebug>
 
 SeerCloseSourceDialog::SeerCloseSourceDialog(QWidget* parent) : QDialog(parent) {
 

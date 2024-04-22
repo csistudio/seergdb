@@ -1,9 +1,9 @@
 #include "SeerMessagesBrowserWidget.h"
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QTreeWidgetItemIterator>
-#include <QtCore/QSettings>
-#include <QtCore/QTime>
-#include <QtCore/QDebug>
+#include <QSettings>
+#include <QTime>
+#include <QDebug>
 
 SeerMessagesBrowserWidget::SeerMessagesBrowserWidget (QWidget* parent) : QWidget(parent) {
 

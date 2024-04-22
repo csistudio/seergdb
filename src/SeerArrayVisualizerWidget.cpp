@@ -8,13 +8,13 @@
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QFileDialog>
 #include <QtWidgets/QToolTip>
-#include <QtGui/QIntValidator>
-#include <QtGui/QIcon>
+#include <QIntValidator>
+#include <QIcon>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QRegularExpression>
+#include <QSettings>
+#include <QDebug>
 #include <QtGlobal>
 
 SeerArrayVisualizerWidget::SeerArrayVisualizerWidget (QWidget* parent) : QWidget(parent) {

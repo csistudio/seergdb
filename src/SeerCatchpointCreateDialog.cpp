@@ -1,5 +1,5 @@
 #include "SeerCatchpointCreateDialog.h"
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerCatchpointCreateDialog::SeerCatchpointCreateDialog (QWidget* parent) : QDialog(parent) {
 

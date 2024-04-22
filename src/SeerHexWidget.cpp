@@ -1,14 +1,14 @@
 #include "SeerHexWidget.h"
 #include "SeerUtl.h"
-#include <QtGui/QPainter>
-#include <QtGui/QPaintEvent>
-#include <QtGui/QKeyEvent>
-#include <QtGui/QClipboard>
-#include <QtGui/QTextCursor>
-#include <QtGui/QTextBlock>
-#include <QtCore/QStringConverter>
-#include <QtCore/QSize>
-#include <QtCore/QDebug>
+#include <QPainter>
+#include <QPaintEvent>
+#include <QKeyEvent>
+#include <QClipboard>
+#include <QTextCursor>
+#include <QTextBlock>
+#include <QTextCodec>
+#include <QSize>
+#include <QDebug>
 #include <stdexcept>
 
 #define byteArrayToType( data, order, precision, type ) \
@@ -585,7 +585,7 @@ void SeerHexWidget::create () {
 
     }else if (charMode() == SeerHexWidget::Utf8Mode) {
 
-        auto toUtf16 = QStringDecoder(QStringDecoder::Utf8, QStringConverter::Flag::ConvertInvalidToNull);
+        auto toUtf16 = QTextCodec(QTextCodec::Utf8, QStringConverter::Flag::ConvertInvalidToNull);
 
         textString = toUtf16.decode(data);
 
@@ -598,7 +598,7 @@ void SeerHexWidget::create () {
 
     }else if (charMode() == SeerHexWidget::Utf16Mode) {
 
-        auto toUtf16 = QStringDecoder(QStringDecoder::Utf16, QStringConverter::Flag::ConvertInvalidToNull);
+        auto toUtf16 = QTextCodec(QTextCodec::Utf16, QStringConverter::Flag::ConvertInvalidToNull);
 
         textString = toUtf16.decode(data);
 
@@ -611,7 +611,7 @@ void SeerHexWidget::create () {
 
     }else if (charMode() == SeerHexWidget::Utf32Mode) {
 
-        auto toUtf16 = QStringDecoder(QStringDecoder::Utf32, QStringConverter::Flag::ConvertInvalidToNull);
+        auto toUtf16 = QTextCodec(QTextCodec::Utf32, QStringConverter::Flag::ConvertInvalidToNull);
 
         textString = toUtf16.decode(data);
 

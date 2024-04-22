@@ -1,11 +1,11 @@
 #include "SeerEditorConfigPage.h"
 #include "QColorButton.h"
-#include <QtGui/QFontDatabase>
+#include <QFontDatabase>
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QFontDialog>
 #include <QtWidgets/QComboBox>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerEditorConfigPage::SeerEditorConfigPage(QWidget* parent) : QWidget(parent) {
 

@@ -3,7 +3,7 @@
 #include <QtWidgets/QFileDialog>
 #include <QtWidgets/QInputDialog>
 #include <QtWidgets/QWidget>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerSourceConfigPage::SeerSourceConfigPage(QWidget* parent) : QWidget(parent) {
 

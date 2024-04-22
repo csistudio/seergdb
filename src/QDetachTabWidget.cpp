@@ -2,8 +2,8 @@
 #include <QtWidgets/QTabBar>
 #include <QtWidgets/QMenu>
 #include <QAction>
-#include <QtGui/QCursor>
-#include <QtCore/QDebug>
+#include <QCursor>
+#include <QDebug>
 
 QDetachTabWidget::QDetachTabWidget(QWidget* parent) : QTabWidget(parent) {
 

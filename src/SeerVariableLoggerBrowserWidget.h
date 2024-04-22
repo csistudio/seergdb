@@ -1,8 +1,8 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
-#include <QtCore/QSet>
+#include <QString>
+#include <QSet>
 #include "ui_SeerVariableLoggerBrowserWidget.h"
 
 class SeerVariableLoggerBrowserWidget : public QWidget, protected Ui::SeerVariableLoggerBrowserWidgetForm {

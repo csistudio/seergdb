@@ -5,11 +5,11 @@
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QMenu>
 #include <QAction>
-#include <QtGui/QIcon>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QTime>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QRegularExpression>
+#include <QTime>
+#include <QSettings>
+#include <QDebug>
 
 SeerStructVisualizerWidget::SeerStructVisualizerWidget (QWidget* parent) : QWidget(parent) {
 

@@ -1,8 +1,8 @@
 #include "GdbMonitor.h"
-#include <QtCore/QtCore>
-#include <QtCore/QProcess>
-#include <QtCore/QLoggingCategory>
-#include <QtCore/QDebug>
+#include <QtCore>
+#include <QProcess>
+#include <QLoggingCategory>
+#include <QDebug>
 #include <iostream>
 
 static QLoggingCategory LC("seer.gdbmonitor");

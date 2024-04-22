@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
+#include <QString>
 #include "ui_SeerLogWidget.h"
 
 class SeerLogWidget : public QWidget, protected Ui::SeerLogWidgetForm {

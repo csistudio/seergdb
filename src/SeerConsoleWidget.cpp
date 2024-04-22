@@ -7,11 +7,11 @@
 #include <QtWidgets/QScrollBar>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
-#include <QtGui/QFont>
-#include <QtGui/QIcon>
-#include <QtCore/QTextStream>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QFont>
+#include <QIcon>
+#include <QTextStream>
+#include <QSettings>
+#include <QDebug>
 #include <unistd.h>
 #include <stdlib.h>
 #include <fcntl.h>

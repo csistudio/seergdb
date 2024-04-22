@@ -4,10 +4,10 @@
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMenu>
-#include <QtGui/QFontDatabase>
-#include <QtGui/QClipboard>
-#include <QtCore/QTimer>
-#include <QtCore/QDebug>
+#include <QFontDatabase>
+#include <QClipboard>
+#include <QTimer>
+#include <QDebug>
 #include <iostream>
 
 SeerVariableTrackerBrowserWidget::SeerVariableTrackerBrowserWidget (QWidget* parent) : QWidget(parent) {

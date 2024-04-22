@@ -1,7 +1,7 @@
 #pragma once
 #include <QtWidgets/QTabWidget>
-#include <QtCore/QString>
-#include <QtCore/QList>
+#include <QString>
+#include <QList>
 
 struct QDetachTabInfo {
 

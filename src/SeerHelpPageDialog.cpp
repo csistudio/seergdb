@@ -2,10 +2,10 @@
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
 #include <QtWidgets/QToolButton>
-#include <QtGui/QIcon>
-#include <QtCore/QFile>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QFile>
+#include <QSettings>
+#include <QDebug>
 
 SeerHelpPageDialog::SeerHelpPageDialog(QDialog* parent) : QDialog(parent) {
 

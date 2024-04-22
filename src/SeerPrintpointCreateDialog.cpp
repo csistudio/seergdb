@@ -1,5 +1,5 @@
 #include "SeerPrintpointCreateDialog.h"
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerPrintpointCreateDialog::SeerPrintpointCreateDialog (QWidget* parent) : QDialog(parent) {
 

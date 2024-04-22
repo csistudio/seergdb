@@ -1,8 +1,8 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
+#include <QString>
+#include <QStringList>
 #include "ui_SeerPrintpointsBrowserWidget.h"
 
 class SeerPrintpointsBrowserWidget : public QWidget, protected Ui::SeerPrintpointsBrowserWidgetForm {

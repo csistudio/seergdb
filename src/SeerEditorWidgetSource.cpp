@@ -1,21 +1,21 @@
 #include "SeerEditorWidgetSource.h"
-#include <QtGui/QColor>
-#include <QtGui/QPainter>
-#include <QtGui/QTextBlock>
-#include <QtGui/QFont>
-#include <QtGui/QIcon>
-#include <QtGui/QRadialGradient>
+#include <QColor>
+#include <QPainter>
+#include <QTextBlock>
+#include <QFont>
+#include <QIcon>
+#include <QRadialGradient>
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QFileDialog>
 #include <QtWidgets/QMenu>
 #include <QAction>
-#include <QtGui/QTextCursor>
-#include <QtGui/QPalette>
-#include <QtCore/QList>
-#include <QtCore/QString>
-#include <QtCore/QTextStream>
-#include <QtCore/QFile>
-#include <QtCore/QDebug>
+#include <QTextCursor>
+#include <QPalette>
+#include <QList>
+#include <QString>
+#include <QTextStream>
+#include <QFile>
+#include <QDebug>
 
 SeerEditorWidgetSource::SeerEditorWidgetSource(QWidget* parent) : QWidget(parent) {
 

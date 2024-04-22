@@ -2,9 +2,9 @@
 
 #include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
-#include <QtCore/QEvent>
-#include <QtCore/QObject>
+#include <QString>
+#include <QEvent>
+#include <QObject>
 
 class SeerPlainTextEdit : public QPlainTextEdit {
 

@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QPlainTextEdit>
-#include <QtCore/QByteArray>
+#include <QByteArray>
 #include "ui_SeerHexWidget.h"
 
 //

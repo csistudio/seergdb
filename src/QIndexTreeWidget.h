@@ -3,7 +3,7 @@
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QTreeWidgetItem>
 #include <QtWidgets/QItemDelegate>
-#include <QtCore/QString>
+#include <QString>
 
 class QIndexTreeWidget : public QTreeWidget {
 

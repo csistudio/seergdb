@@ -4,11 +4,11 @@
 #include "SeerEditorManagerEntry.h"
 #include "SeerHighlighterSettings.h"
 #include "SeerKeySettings.h"
-#include <QtGui/QFont>
+#include <QFont>
 #include <QtWidgets/QWidget>
-#include <QtCore/QMap>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
+#include <QMap>
+#include <QString>
+#include <QStringList>
 
 #include "ui_SeerEditorManagerWidget.h"
 

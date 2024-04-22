@@ -1,9 +1,9 @@
 #pragma once
 
-#include <QtGui/QKeySequence>
-#include <QtCore/QMap>
-#include <QtCore/QStringList>
-#include <QtCore/QString>
+#include <QKeySequence>
+#include <QMap>
+#include <QStringList>
+#include <QString>
 
 struct SeerKeySetting {
 

@@ -24,9 +24,9 @@
 #include <QtWidgets/QAbstractItemView>
 #include <QtWidgets/QScrollBar>
 #include <QAction>
-#include <QtGui/QKeyEvent>
-#include <QtGui/QWheelEvent>
-#include <QtCore/QDebug>
+#include <QKeyEvent>
+#include <QWheelEvent>
+#include <QDebug>
 
 QHistoryLineEdit::QHistoryLineEdit (const QString& contents, QWidget* parent) : QLineEdit(contents, parent), _currentLine(0), _completer(0), _completionMinchars(1), _completionMax(0) {
 

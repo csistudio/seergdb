@@ -1,10 +1,10 @@
 #include "SeerAboutDialog.h"
 #include "SeerUtl.h"
-#include <QtGui/QColor>
-#include <QtGui/QPalette>
-#include <QtCore/QFile>
-#include <QtCore/QString>
-#include <QtCore/QDebug>
+#include <QColor>
+#include <QPalette>
+#include <QFile>
+#include <QString>
+#include <QDebug>
 
 SeerAboutDialog::SeerAboutDialog (QWidget* parent) : QDialog(parent) {
 

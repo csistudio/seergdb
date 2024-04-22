@@ -6,8 +6,8 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QInputDialog>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
+#include <QFileInfo>
+#include <QDebug>
 
 SeerPrintpointsBrowserWidget::SeerPrintpointsBrowserWidget (QWidget* parent) : QWidget(parent) {
 

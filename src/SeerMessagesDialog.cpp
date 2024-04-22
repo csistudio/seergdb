@@ -2,9 +2,9 @@
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QTreeWidgetItem>
 #include <QtWidgets/QDialogButtonBox>
-#include <QtCore/QTime>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QTime>
+#include <QSettings>
+#include <QDebug>
 
 
 SeerMessagesDialog::SeerMessagesDialog (QWidget* parent) : QDialog(parent) {

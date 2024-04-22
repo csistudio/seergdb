@@ -3,8 +3,8 @@
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QPushButton>
-#include <QtGui/QIcon>
-#include <QtCore/QString>
+#include <QIcon>
+#include <QString>
 #include "ui_SeerMessagesDialog.h"
 
 class SeerMessagesDialog : public QDialog, protected Ui::SeerMessagesDialog {

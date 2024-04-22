@@ -1,9 +1,9 @@
 #pragma once
 
 #include "SeerEditorWidgetSource.h"
-#include <QtCore/QString>
-#include <QtCore/QMap>
-#include <QtCore/QVector>
+#include <QString>
+#include <QMap>
+#include <QVector>
 
 struct SeerEditorManagerEntry {
     QString                   fullname;

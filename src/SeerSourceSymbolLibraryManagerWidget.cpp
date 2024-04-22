@@ -2,9 +2,9 @@
 #include "SeerHelpPageDialog.h"
 #include "QHContainerWidget.h"
 #include <QtWidgets/QToolButton>
-#include <QtGui/QIcon>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QSettings>
+#include <QDebug>
 
 SeerSourceSymbolLibraryManagerWidget::SeerSourceSymbolLibraryManagerWidget (QWidget* parent) : QWidget(parent) {
 

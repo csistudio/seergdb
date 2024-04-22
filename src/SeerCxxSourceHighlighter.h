@@ -1,11 +1,11 @@
 #pragma once
 
-#include <QtGui/QSyntaxHighlighter>
-#include <QtGui/QTextDocument>
-#include <QtGui/QTextCharFormat>
-#include <QtCore/QString>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QVector>
+#include <QSyntaxHighlighter>
+#include <QTextDocument>
+#include <QTextCharFormat>
+#include <QString>
+#include <QRegularExpression>
+#include <QVector>
 
 class SeerCxxSourceHighlighter : public QSyntaxHighlighter {
 

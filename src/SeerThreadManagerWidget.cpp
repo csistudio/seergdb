@@ -3,10 +3,10 @@
 #include "QHContainerWidget.h"
 #include <QtWidgets/QToolButton>
 #include <QtWidgets/QTextBrowser>
-#include <QtGui/QIcon>
-#include <QtCore/QFile>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QFile>
+#include <QSettings>
+#include <QDebug>
 
 SeerThreadManagerWidget::SeerThreadManagerWidget (QWidget* parent) : QWidget(parent) {
 

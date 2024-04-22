@@ -2,14 +2,14 @@
 #include "SeerUtl.h"
 #include "QProcessInfo.h"
 #include <QtWidgets/QApplication>
-#include <QtGui/QIcon>
-#include <QtCore/QCommandLineParser>
-#include <QtCore/QCommandLineOption>
-#include <QtCore/QStringList>
-#include <QtCore/QString>
-#include <QtCore/QTextStream>
-#include <QtCore/QObject>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QCommandLineParser>
+#include <QCommandLineOption>
+#include <QStringList>
+#include <QString>
+#include <QTextStream>
+#include <QObject>
+#include <QDebug>
 #include <iostream>
 
 static void seerhelp() {

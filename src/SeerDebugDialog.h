@@ -2,8 +2,8 @@
 
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QButtonGroup>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
+#include <QString>
+#include <QStringList>
 
 #include "ui_SeerDebugDialog.h"
 

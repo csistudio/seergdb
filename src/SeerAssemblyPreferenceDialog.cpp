@@ -1,6 +1,6 @@
 #include "SeerAssemblyPreferenceDialog.h"
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QSettings>
+#include <QDebug>
 
 SeerAssemblyPreferenceDialog::SeerAssemblyPreferenceDialog (QWidget* parent) : QDialog(parent) {
 

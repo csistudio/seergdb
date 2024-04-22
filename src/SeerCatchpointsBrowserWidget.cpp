@@ -6,7 +6,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QInputDialog>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerCatchpointsBrowserWidget::SeerCatchpointsBrowserWidget (QWidget* parent) : QWidget(parent) {
 
@@ -444,7 +444,7 @@ void SeerCatchpointsBrowserWidget::handleCommandsToolButton () {
     // Get the selected catchpoint number.
     QString catchpoint = items.front()->text(0);
 
-    QStringList commands = Seer::quoteChars(commandstr.split('\n', Qt::SkipEmptyParts), "\"");
+    QStringList commands = Seer::quoteChars(commandstr.split('\n', QString::SkipEmptyParts), "\"");
 
     // Send the signal.
     emit addBreakpointCommands(catchpoint, commands);

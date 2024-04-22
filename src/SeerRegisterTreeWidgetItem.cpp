@@ -1,7 +1,7 @@
 #include "SeerRegisterTreeWidgetItem.h"
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QTreeWidgetItem>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 //
 // SeerRegisterTreeWidgetItem

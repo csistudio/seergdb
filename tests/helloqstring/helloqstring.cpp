@@ -1,5 +1,5 @@
-#include <QtCore/QString>
-#include <QtCore/QDebug>
+#include <QString>
+#include <QDebug>
 #include <stdio.h>
 
 int main (int argc, char* argv[]) {

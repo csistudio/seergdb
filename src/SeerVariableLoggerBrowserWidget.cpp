@@ -4,10 +4,10 @@
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMenu>
-#include <QtGui/QFontDatabase>
-#include <QtGui/QClipboard>
-#include <QtCore/QTime>
-#include <QtCore/QDebug>
+#include <QFontDatabase>
+#include <QClipboard>
+#include <QTime>
+#include <QDebug>
 #include <QAction>
 
 SeerVariableLoggerBrowserWidget::SeerVariableLoggerBrowserWidget (QWidget* parent) : QWidget(parent) {

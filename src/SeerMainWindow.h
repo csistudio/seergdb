@@ -7,10 +7,10 @@
 #include <QtWidgets/QMainWindow>
 #include <QShortcut>
 #include <QActionGroup>
-#include <QtGui/QCloseEvent>
-#include <QtGui/QResizeEvent>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
+#include <QCloseEvent>
+#include <QResizeEvent>
+#include <QString>
+#include <QStringList>
 
 class SeerMainWindow : public QMainWindow, protected Ui::SeerMainWindowForm {
 

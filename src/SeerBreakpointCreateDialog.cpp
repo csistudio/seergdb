@@ -1,5 +1,5 @@
 #include "SeerBreakpointCreateDialog.h"
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerBreakpointCreateDialog::SeerBreakpointCreateDialog (QWidget* parent) : QDialog(parent) {
 

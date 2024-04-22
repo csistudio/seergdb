@@ -2,7 +2,7 @@
 #include "SeerUtl.h"
 #include <QtWidgets/QScrollBar>
 #include <QRegularExpression>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerSeerLogWidget::SeerSeerLogWidget (QWidget* parent) : SeerLogWidget(parent) {
 }

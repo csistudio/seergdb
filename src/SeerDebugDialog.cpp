@@ -7,13 +7,13 @@
 #include <QtWidgets/QFileDialog>
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QMainWindow>
-#include <QtCore/QDir>
-#include <QtCore/QSettings>
-#include <QtCore/QJsonObject>
-#include <QtCore/QJsonArray>
-#include <QtCore/QJsonValue>
-#include <QtCore/QJsonDocument>
-#include <QtCore/QDebug>
+#include <QDir>
+#include <QSettings>
+#include <QJsonObject>
+#include <QJsonArray>
+#include <QJsonValue>
+#include <QJsonDocument>
+#include <QDebug>
 #include <QtGlobal>
 
 SeerDebugDialog::SeerDebugDialog (QWidget* parent) : QDialog(parent) {

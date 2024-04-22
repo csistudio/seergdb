@@ -1,9 +1,9 @@
 #include "SeerProgressIndicator.h"
 #include <QtWidgets/QMenu>
 #include <QAction>
-#include <QtGui/QCursor>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QCursor>
+#include <QSettings>
+#include <QDebug>
 
 SeerProgressIndicator::SeerProgressIndicator(QWidget* parent) : QProgressIndicator(parent) {
 

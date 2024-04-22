@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
+#include <QString>
 #include "ui_SeerAdaExceptionsBrowserWidget.h"
 
 class SeerAdaExceptionsBrowserWidget : public QWidget, protected Ui::SeerAdaExceptionsBrowserWidgetForm {

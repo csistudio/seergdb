@@ -10,8 +10,8 @@
 #include "SeerCatchpointsBrowserWidget.h"
 #include "SeerPrintpointsBrowserWidget.h"
 #include "GdbMonitor.h"
-#include <QtCore/QProcess>
-#include <QtCore/QVector>
+#include <QProcess>
+#include <QVector>
 #include <QtWidgets/QWidget>
 
 #include "ui_SeerGdbWidget.h"

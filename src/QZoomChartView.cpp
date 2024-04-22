@@ -1,8 +1,8 @@
 #include "QZoomChartView.h"
-#include <QtGui/QMouseEvent>
-#include <QtGui/QGuiApplication>
+#include <QMouseEvent>
+#include <QGuiApplication>
 #include <QtWidgets/QApplication>
-#include <QtCore/QDebug>
+#include <QDebug>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
 

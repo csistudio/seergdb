@@ -5,18 +5,18 @@
 #include "SeerPlainTextEdit.h"
 #include <QShortcut>
 #include <QtWidgets/QWidget>
-#include <QtGui/QPaintEvent>
-#include <QtGui/QResizeEvent>
-#include <QtGui/QPixmap>
-#include <QtGui/QTextCursor>
-#include <QtCore/QSize>
-#include <QtCore/QRect>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
-#include <QtCore/QVector>
-#include <QtCore/QMap>
-#include <QtCore/QFileSystemWatcher>
-#include <QtCore/QPoint>
+#include <QPaintEvent>
+#include <QResizeEvent>
+#include <QPixmap>
+#include <QTextCursor>
+#include <QSize>
+#include <QRect>
+#include <QString>
+#include <QStringList>
+#include <QVector>
+#include <QMap>
+#include <QFileSystemWatcher>
+#include <QPoint>
 
 
 class SeerEditorWidgetSourceLineNumberArea;

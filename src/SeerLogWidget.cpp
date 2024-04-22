@@ -6,9 +6,9 @@
 #include <QtWidgets/QScrollBar>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
-#include <QtGui/QFont>
-#include <QtCore/QTextStream>
-#include <QtCore/QDebug>
+#include <QFont>
+#include <QTextStream>
+#include <QDebug>
 
 SeerLogWidget::SeerLogWidget (QWidget* parent) : QWidget(parent) {
 

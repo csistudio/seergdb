@@ -2,7 +2,7 @@
 #include <QtWidgets/QKeySequenceEdit>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QWidget>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerKeysConfigPage::SeerKeysConfigPage(QWidget* parent) : QWidget(parent) {
 

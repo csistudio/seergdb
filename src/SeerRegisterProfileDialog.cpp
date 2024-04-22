@@ -2,11 +2,11 @@
 #include "SeerRegisterTreeWidgetItem.h"
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QFileDialog>
-#include <QtGui/QRegularExpressionValidator>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QSettings>
-#include <QtCore/QList>
-#include <QtCore/QDebug>
+#include <QRegularExpressionValidator>
+#include <QRegularExpression>
+#include <QSettings>
+#include <QList>
+#include <QDebug>
 
 SeerRegisterProfileDialog::SeerRegisterProfileDialog (QWidget* parent) : QDialog(parent) {
 

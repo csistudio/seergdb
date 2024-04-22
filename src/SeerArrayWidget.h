@@ -1,8 +1,8 @@
 #pragma once
 
 #include <QtWidgets/QTableWidget>
-#include <QtCore/QByteArray>
-#include <QtCore/QVector>
+#include <QByteArray>
+#include <QVector>
 
 class SeerArrayWidget: public QTableWidget {
 

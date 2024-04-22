@@ -1,10 +1,10 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtGui/QTextCursor>
-#include <QtGui/QResizeEvent>
-#include <QtCore/QString>
-#include <QtCore/QSocketNotifier>
+#include <QTextCursor>
+#include <QResizeEvent>
+#include <QString>
+#include <QSocketNotifier>
 #include "ui_SeerConsoleWidget.h"
 
 class SeerConsoleWidget : public QWidget, protected Ui::SeerConsoleWidgetForm {

@@ -3,8 +3,8 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QScrollArea>
-#include <QtGui/QImage>
-#include <QtGui/QKeyEvent>
+#include <QImage>
+#include <QKeyEvent>
 #include <QtPrintSupport/QPrinter>
 
 class QImageViewer : public QWidget {

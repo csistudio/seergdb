@@ -3,8 +3,8 @@
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QApplication>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
+#include <QFileInfo>
+#include <QDebug>
 
 SeerThreadGroupsBrowserWidget::SeerThreadGroupsBrowserWidget (QWidget* parent) : QWidget(parent) {
 

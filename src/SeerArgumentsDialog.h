@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QDialog>
-#include <QtCore/QString>
+#include <QString>
 
 #include "ui_SeerArgumentsDialog.h"
 

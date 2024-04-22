@@ -4,9 +4,9 @@
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QApplication>
-#include <QtCore/QFileInfo>
-#include <QtCore/Qt>
-#include <QtCore/QDebug>
+#include <QFileInfo>
+#include <Qt>
+#include <QDebug>
 
 SeerLibraryBrowserWidget::SeerLibraryBrowserWidget (QWidget* parent) : QWidget(parent) {
 

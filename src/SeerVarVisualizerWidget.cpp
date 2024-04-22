@@ -7,11 +7,11 @@
 #include <QtWidgets/QMenu>
 #include <QAction>
 #include <QtWidgets/QMessageBox>
-#include <QtGui/QIcon>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QTimer>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QRegularExpression>
+#include <QTimer>
+#include <QSettings>
+#include <QDebug>
 
 SeerVarVisualizerWidget::SeerVarVisualizerWidget (QWidget* parent) : QWidget(parent) {
 

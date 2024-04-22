@@ -3,31 +3,31 @@
 #include "SeerBreakpointCreateDialog.h"
 #include "SeerPrintpointCreateDialog.h"
 #include "SeerUtl.h"
-#include <QtGui/QColor>
-#include <QtGui/QPainter>
-#include <QtGui/QTextBlock>
-#include <QtGui/QFont>
-#include <QtGui/QIcon>
-#include <QtGui/QRadialGradient>
-#include <QtGui/QHelpEvent>
-#include <QtGui/QPainterPath>
-#include <QtGui/QGuiApplication>
-#include <QtGui/QHelpEvent>
+#include <QColor>
+#include <QPainter>
+#include <QTextBlock>
+#include <QFont>
+#include <QIcon>
+#include <QRadialGradient>
+#include <QHelpEvent>
+#include <QPainterPath>
+#include <QGuiApplication>
+#include <QHelpEvent>
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QMenu>
 #include <QAction>
 #include <QtWidgets/QToolTip>
 #include <QtWidgets/QMessageBox>
-#include <QtGui/QTextCursor>
-#include <QtGui/QPalette>
-#include <QtCore/QList>
-#include <QtCore/QString>
-#include <QtCore/QTextStream>
-#include <QtCore/QFile>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
-#include <QtCore/QCoreApplication>
-#include <QtCore/QProcess>
+#include <QTextCursor>
+#include <QPalette>
+#include <QList>
+#include <QString>
+#include <QTextStream>
+#include <QFile>
+#include <QFileInfo>
+#include <QDebug>
+#include <QCoreApplication>
+#include <QProcess>
 
 
 SeerEditorWidgetSourceArea::SeerEditorWidgetSourceArea(QWidget* parent) : SeerPlainTextEdit(parent) {
@@ -1338,7 +1338,7 @@ void SeerEditorWidgetSourceArea::showContextMenu (const QPoint& pos, const QPoin
         codeEditorCmd.replace("%{line}", QString::number(lineno));
 
         QProcess* process = new QProcess(this);
-        process->startCommand(codeEditorCmd);
+        process->start(codeEditorCmd);
 
         bool f = process->waitForStarted(5000);
 

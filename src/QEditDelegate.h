@@ -2,7 +2,7 @@
 
 #include <QtWidgets/QItemDelegate>
 #include <QtWidgets/QStyledItemDelegate>
-#include <QtCore/QModelIndex>
+#include <QModelIndex>
 
 class QAllowEditDelegate : public QStyledItemDelegate {
 

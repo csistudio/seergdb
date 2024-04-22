@@ -1,6 +1,6 @@
 #include "SeerAsmWidget.h"
 #include "SeerUtl.h"
-#include <QtCore/QDebug>
+#include <QDebug>
 #include <algorithm>
 
 SeerAsmWidget::SeerAsmWidget(QWidget* parent) : QWidget(parent) {

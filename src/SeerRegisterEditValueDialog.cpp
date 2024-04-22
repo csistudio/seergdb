@@ -1,5 +1,5 @@
 #include "SeerRegisterEditValueDialog.h"
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerRegisterEditValueDialog::SeerRegisterEditValueDialog (QWidget* parent) : QDialog(parent) {
 

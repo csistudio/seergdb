@@ -7,12 +7,12 @@
 //
 
 #include "QProcessInfo.h"
-#include <QtCore/QDir>
-#include <QtCore/QProcess>
+#include <QDir>
+#include <QProcess>
 #include <QRegularExpression>
-#include <QtCore/QStandardPaths>
-#include <QtCore/QTextStream>
-#include <QtCore/QDebug>
+#include <QStandardPaths>
+#include <QTextStream>
+#include <QDebug>
 #include <stdlib.h>
 #include <pwd.h>
 #include <stdio.h>

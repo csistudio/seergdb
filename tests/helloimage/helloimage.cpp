@@ -2,8 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include <filesystem>
-#include <QtGui/QImageReader>
-#include <QtCore/QDebug>
+#include <QImageReader>
+#include <QDebug>
 
 int main (int argc, char** argv) {
 

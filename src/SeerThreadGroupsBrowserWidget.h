@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtCore/QString>
+#include <QString>
 #include "ui_SeerThreadGroupsBrowserWidget.h"
 
 class SeerThreadGroupsBrowserWidget : public QWidget, protected Ui::SeerThreadGroupsBrowserWidgetForm {

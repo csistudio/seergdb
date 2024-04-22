@@ -1,7 +1,7 @@
 #pragma once
 
 #include <QtWidgets/QWidget>
-#include <QtGui/QKeyEvent>
+#include <QKeyEvent>
 #include "ui_SeerVarVisualizerWidget.h"
 
 class SeerVarVisualizerWidget : public QWidget, protected Ui::SeerVarVisualizerWidgetForm {

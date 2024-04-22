@@ -3,9 +3,9 @@
 #include "SeerUtl.h"
 #include "QHContainerWidget.h"
 #include <QtWidgets/QToolButton>
-#include <QtGui/QIcon>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QIcon>
+#include <QSettings>
+#include <QDebug>
 
 SeerStackManagerWidget::SeerStackManagerWidget (QWidget* parent) : QWidget(parent) {
 

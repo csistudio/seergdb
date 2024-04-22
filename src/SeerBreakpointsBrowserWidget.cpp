@@ -6,8 +6,8 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QInputDialog>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
+#include <QFileInfo>
+#include <QDebug>
 
 SeerBreakpointsBrowserWidget::SeerBreakpointsBrowserWidget (QWidget* parent) : QWidget(parent) {
 
@@ -418,7 +418,7 @@ void SeerBreakpointsBrowserWidget::handleCommandsToolButton () {
     // Get the selected breakpoint number.
     QString breakpoint = items.front()->text(0);
 
-    QStringList commands = Seer::quoteChars(commandstr.split('\n', Qt::SkipEmptyParts), "\"");
+    QStringList commands = Seer::quoteChars(commandstr.split('\n', QString::SkipEmptyParts), "\"");
 
     // Send the signal.
     emit addBreakpointCommands(breakpoint, commands);

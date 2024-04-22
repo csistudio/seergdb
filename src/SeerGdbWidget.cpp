@@ -8,17 +8,17 @@
 #include "SeerHelpPageDialog.h"
 #include "SeerUtl.h"
 #include "QHContainerWidget.h"
-#include <QtGui/QFont>
-#include <QtGui/QGuiApplication>
+#include <QFont>
+#include <QGuiApplication>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QFileDialog>
-#include <QtCore/QLoggingCategory>
-#include <QtCore/QSettings>
-#include <QtCore/QProcess>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QFile>
-#include <QtCore/QDebug>
+#include <QLoggingCategory>
+#include <QSettings>
+#include <QProcess>
+#include <QRegularExpression>
+#include <QFile>
+#include <QDebug>
 #include <QtGlobal>
 #include <unistd.h>
 #include <stdlib.h>
@@ -2437,7 +2437,7 @@ void SeerGdbWidget::handleGdbDataDeleteExpressions (QString expressionids) {
 
     }else{
 
-        QStringList ids = expressionids.split(' ', Qt::SkipEmptyParts);
+        QStringList ids = expressionids.split(' ', QString::SkipEmptyParts);
 
         bool first = true;
         for (int i=0; i<ids.size(); i++) {

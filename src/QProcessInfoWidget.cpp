@@ -3,8 +3,8 @@
 #include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QApplication>
-#include <QtGui/QFont>
-#include <QtCore/QDebug>
+#include <QFont>
+#include <QDebug>
 #include <QRegularExpression>
 
 

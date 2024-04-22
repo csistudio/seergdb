@@ -1,8 +1,8 @@
 #pragma once
 
 #include <QFileSystemModel>
-#include <QtCore/QSortFilterProxyModel>
-#include <QtCore/QDebug>
+#include <QSortFilterProxyModel>
+#include <QDebug>
 
 class SeerExecutableFilterProxyModel : public QSortFilterProxyModel {
 

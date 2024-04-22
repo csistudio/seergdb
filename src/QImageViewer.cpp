@@ -2,10 +2,10 @@
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QFileDialog>
-#include <QtGui/QImageReader>
-#include <QtGui/QImageWriter>
-#include <QtGui/QPainter>
-#include <QtCore/QDebug>
+#include <QImageReader>
+#include <QImageWriter>
+#include <QPainter>
+#include <QDebug>
 #include <QtPrintSupport/QPrintDialog>
 
 //

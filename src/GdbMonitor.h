@@ -1,8 +1,8 @@
 #ifndef GdbMonitor_H
 #define GdbMonitor_H
 
-#include <QtCore/QObject>
-#include <QtCore/QtCore>
+#include <QObject>
+#include <QtCore>
 
 class GdbMonitor : public QObject {
 

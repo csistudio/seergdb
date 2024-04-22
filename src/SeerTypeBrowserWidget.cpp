@@ -4,10 +4,10 @@
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QApplication>
-#include <QtCore/QFileInfo>
-#include <QtCore/Qt>
-#include <QtCore/QMap>
-#include <QtCore/QDebug>
+#include <QFileInfo>
+#include <Qt>
+#include <QMap>
+#include <QDebug>
 
 SeerTypeBrowserWidget::SeerTypeBrowserWidget (QWidget* parent) : QWidget(parent) {
 

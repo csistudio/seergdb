@@ -4,9 +4,9 @@
 #include <QtWidgets/QStackedWidget>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QMessageBox>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
-#include <QtCore/QDebug>
+#include <QString>
+#include <QStringList>
+#include <QDebug>
 
 SeerConfigDialog::SeerConfigDialog(QWidget* parent) : QDialog(parent) {
 

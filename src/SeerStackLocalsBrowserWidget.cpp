@@ -4,10 +4,10 @@
 #include <QtWidgets/QTreeWidgetItemIterator>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMenu>
-#include <QtGui/QFontDatabase>
-#include <QtCore/QRegularExpressionMatch>
+#include <QFontDatabase>
+#include <QRegularExpressionMatch>
 #include <QAction>
-#include <QtCore/QDebug>
+#include <QDebug>
 #include <QtGlobal>
 
 SeerStackLocalsBrowserWidget::SeerStackLocalsBrowserWidget (QWidget* parent) : QWidget(parent) {

@@ -1,23 +1,23 @@
 #include "SeerEditorWidgetAssembly.h"
 #include "SeerAssemblyPreferenceDialog.h"
 #include "SeerUtl.h"
-#include <QtGui/QColor>
-#include <QtGui/QPainter>
-#include <QtGui/QTextBlock>
-#include <QtGui/QFont>
-#include <QtGui/QIcon>
-#include <QtGui/QAction>
-#include <QtGui/QTextCursor>
-#include <QtGui/QPalette>
+#include <QColor>
+#include <QPainter>
+#include <QTextBlock>
+#include <QFont>
+#include <QIcon>
+#include <QAction>
+#include <QTextCursor>
+#include <QPalette>
 #include <QtWidgets/QScrollBar>
 #include <QtWidgets/QFileDialog>
 #include <QtWidgets/QMenu>
-#include <QtCore/QSettings>
-#include <QtCore/QList>
-#include <QtCore/QString>
-#include <QtCore/QTextStream>
-#include <QtCore/QFile>
-#include <QtCore/QDebug>
+#include <QSettings>
+#include <QList>
+#include <QString>
+#include <QTextStream>
+#include <QFile>
+#include <QDebug>
 
 SeerEditorWidgetAssembly::SeerEditorWidgetAssembly(QWidget* parent) : QWidget(parent) {
 

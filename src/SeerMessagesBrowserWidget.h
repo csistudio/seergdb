@@ -3,8 +3,8 @@
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QWidget>
-#include <QtGui/QIcon>
-#include <QtCore/QString>
+#include <QIcon>
+#include <QString>
 #include <QAction>
 #include "ui_SeerMessagesBrowserWidget.h"
 

@@ -3,12 +3,12 @@
 #include "SeerUtl.h"
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QFileDialog>
-#include <QtGui/QIntValidator>
-#include <QtGui/QIcon>
+#include <QIntValidator>
+#include <QIcon>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
-#include <QtCore/QSettings>
-#include <QtCore/QDebug>
+#include <QSettings>
+#include <QDebug>
 
 SeerImageVisualizerWidget::SeerImageVisualizerWidget (QWidget* parent) : QWidget(parent) {
 
@@ -139,7 +139,7 @@ void SeerImageVisualizerWidget::handleText (const QString& text) {
 
         if (id_text.toInt() == _variableId) {
 
-            QStringList words = Seer::filterEscapes(Seer::parseFirst(text, "value=", '"', '"', false)).split(' ', Qt::SkipEmptyParts);
+            QStringList words = Seer::filterEscapes(Seer::parseFirst(text, "value=", '"', '"', false)).split(' ', QString::SkipEmptyParts);
 
             setVariableAddress(words.first());
         }

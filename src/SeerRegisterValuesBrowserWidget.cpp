@@ -9,12 +9,12 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMessageBox>
-#include <QtGui/QFontDatabase>
-#include <QtGui/QClipboard>
-#include <QtCore/QSettings>
-#include <QtCore/QVector>
-#include <QtCore/QByteArray>
-#include <QtCore/QDebug>
+#include <QFontDatabase>
+#include <QClipboard>
+#include <QSettings>
+#include <QVector>
+#include <QByteArray>
+#include <QDebug>
 
 
 SeerRegisterValuesBrowserWidget::SeerRegisterValuesBrowserWidget (QWidget* parent) : QWidget(parent) {

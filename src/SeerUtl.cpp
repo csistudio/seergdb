@@ -1,9 +1,9 @@
 #include "SeerUtl.h"
-#include <QtCore/QFile>
-#include <QtCore/QString>
-#include <QtCore/QDebug>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QRegularExpressionMatch>
+#include <QFile>
+#include <QString>
+#include <QDebug>
+#include <QRegularExpression>
+#include <QRegularExpressionMatch>
 
 #include <mutex>
 

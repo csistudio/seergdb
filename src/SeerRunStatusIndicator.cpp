@@ -1,6 +1,6 @@
 #include "SeerRunStatusIndicator.h"
 #include <QtWidgets/QApplication>
-#include <QtCore/QDebug>
+#include <QDebug>
 
 SeerRunStatusIndicator::SeerRunStatusIndicator(QWidget* parent) : QLabel(parent) {
     _runStatus = RunStatus::Idle;

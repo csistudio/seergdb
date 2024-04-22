@@ -3,7 +3,7 @@
 #include <QtCharts>
 #include <QtCharts/QChartView>
 #include <QtWidgets/QRubberBand>
-#include <QtCore/QPointF>
+#include <QPointF>
 
 #if QT_VERSION < 0x060000
 using namespace QtCharts;

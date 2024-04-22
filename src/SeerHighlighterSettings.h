@@ -1,9 +1,9 @@
 #pragma once
 
-#include <QtGui/QTextCharFormat>
-#include <QtCore/QList>
-#include <QtCore/QStringList>
-#include <QtCore/QString>
+#include <QTextCharFormat>
+#include <QList>
+#include <QStringList>
+#include <QString>
 
 class SeerHighlighterSettings {
 

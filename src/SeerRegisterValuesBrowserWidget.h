@@ -3,10 +3,10 @@
 #include "ui_SeerRegisterValuesBrowserWidget.h"
 #include <QtWidgets/QWidget>
 #include <QtWidgets/QMenu>
-#include <QtCore/QString>
-#include <QtCore/QStringList>
-#include <QtCore/QVector>
-#include <QtCore/QDebug>
+#include <QString>
+#include <QStringList>
+#include <QVector>
+#include <QDebug>
 
 class SeerRegisterValuesBrowserWidget : public QWidget, protected Ui::SeerRegisterValuesBrowserWidgetForm {
 

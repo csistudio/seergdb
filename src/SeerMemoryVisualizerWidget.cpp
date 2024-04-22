@@ -3,14 +3,14 @@
 #include "SeerUtl.h"
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QFileDialog>
-#include <QtGui/QIntValidator>
-#include <QtGui/QIcon>
+#include <QIntValidator>
+#include <QIcon>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
-#include <QtCore/QRegularExpression>
-#include <QtCore/QSettings>
-#include <QtCore/QFile>
-#include <QtCore/QDebug>
+#include <QRegularExpression>
+#include <QSettings>
+#include <QFile>
+#include <QDebug>
 
 SeerMemoryVisualizerWidget::SeerMemoryVisualizerWidget (QWidget* parent) : QWidget(parent) {
 

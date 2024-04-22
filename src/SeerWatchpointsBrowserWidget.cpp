@@ -6,9 +6,9 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMessageBox>
 #include <QtWidgets/QInputDialog>
-#include <QtGui/QFontDatabase>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
+#include <QFontDatabase>
+#include <QFileInfo>
+#include <QDebug>
 
 SeerWatchpointsBrowserWidget::SeerWatchpointsBrowserWidget (QWidget* parent) : QWidget(parent) {
 
@@ -550,7 +550,7 @@ void SeerWatchpointsBrowserWidget::handleCommandsToolButton () {
     // Get the selected watchpoint number.
     QString watchpoint = items.front()->text(0);
 
-    QStringList commands = Seer::quoteChars(commandstr.split('\n', Qt::SkipEmptyParts), "\"");
+    QStringList commands = Seer::quoteChars(commandstr.split('\n', QString::SkipEmptyParts), "\"");
 
     // Send the signal.
     emit addBreakpointCommands(watchpoint, commands);

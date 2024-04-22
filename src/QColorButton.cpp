@@ -1,8 +1,8 @@
 #include "QColorButton.h"
 #include <QtWidgets/QColorDialog>
-#include <QtGui/QPalette>
-#include <QtGui/QPainter>
-#include <QtCore/QDebug>
+#include <QPalette>
+#include <QPainter>
+#include <QDebug>
 
 QColorButton::QColorButton(QWidget* parent) : QWidget(parent) {
 

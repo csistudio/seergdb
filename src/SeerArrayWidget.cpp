@@ -1,7 +1,7 @@
 #include "SeerArrayWidget.h"
 #include "SeerUtl.h"
 #include <QtWidgets/QHeaderView>
-#include <QtCore/QDebug>
+#include <QDebug>
 #include <stdexcept>
 
 SeerArrayWidget::SeerArrayWidget(QWidget* parent) : QTableWidget(parent) {

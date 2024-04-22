@@ -1,5 +1,5 @@
 #include "QClearLineEdit.h"
-#include <QtCore/QDebug>
+#include <QDebug>
 
 QClearLineEdit::QClearLineEdit (const QString& contents, QWidget* parent) : QLineEdit(contents, parent) {
 

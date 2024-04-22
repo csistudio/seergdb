@@ -8,11 +8,11 @@
 #include <QtWidgets/QToolButton>
 #include <QtWidgets/QFileDialog>
 #include <QtWidgets/QMessageBox>
-#include <QtCore/QString>
-#include <QtCore/QTextStream>
-#include <QtCore/QFile>
-#include <QtCore/QFileInfo>
-#include <QtCore/QDebug>
+#include <QString>
+#include <QTextStream>
+#include <QFile>
+#include <QFileInfo>
+#include <QDebug>
 
 SeerEditorManagerWidget::SeerEditorManagerWidget (QWidget* parent) : QWidget(parent) {
 

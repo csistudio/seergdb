@@ -1,5 +1,5 @@
 #include "SeerKeySettings.h"
-#include <QtCore/QList>
+#include <QList>
 
 SeerKeySettings::SeerKeySettings () {
 }

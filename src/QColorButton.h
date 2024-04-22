@@ -1,8 +1,8 @@
 #pragma once
 
-#include <QtGui/QMouseEvent>
-#include <QtGui/QPaintEvent>
-#include <QtGui/QColor>
+#include <QMouseEvent>
+#include <QPaintEvent>
+#include <QColor>
 #include <QtWidgets/QWidget>
 
 class QColorButton : public QWidget {
